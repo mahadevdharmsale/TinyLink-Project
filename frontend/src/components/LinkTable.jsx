@@ -1,7 +1,7 @@
 import React from "react";
 import toast from "react-hot-toast";
 
-const BACKEND = "http://localhost:4000";
+const BACKEND = "https://tinylink-project-qtuk.onrender.com";
 
 export default function LinkTable({ links, onDelete }) {
   const handleCopy = (code) => {
