@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:4000",
+  baseURL: "https://tinylink-project-qtuk.onrender.com",
 });
 
 export const getLinks = () => API.get("/api/links").then((res) => res.data);
